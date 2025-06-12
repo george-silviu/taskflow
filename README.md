@@ -1,6 +1,10 @@
-# Essentials
+# Taskflow - Angular minimalist task management app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+
+## Components structure
+
+<img src="/src/images/taskflow-component-structure.png" alt="taskflow components structure"/>
 
 ## Development server
 
