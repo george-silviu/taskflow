@@ -10,5 +10,9 @@ const RANDOM_INDEX = Math.floor(Math.random() * DUMMY_USERS.length);
   styleUrl: './user.component.css',
 })
 export class UserComponent {
-  user = DUMMY_USERS[RANDOM_INDEX];
+  user = DUMMY_USERS[RANDOM_INDEX]; //this variable can be accessed in template
+
+  get imagePath() {
+    return 'assets/users/' + this.user.avatar;
+  }
 }
