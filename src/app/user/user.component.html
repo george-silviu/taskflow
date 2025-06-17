@@ -2,9 +2,9 @@
   <!-- click event listener in Angular -->
   <button (click)="onSelectUser()">
     <!-- property binding -->
-    <img [src]="imagePath" [alt]="user.name" />
+    <img [src]="imagePath()" [alt]="selectedUser().name" />
 
     <!-- string interpolation -->
-    <span>{{ user.name }}</span>
+    <span>{{ selectedUser().name }}</span>
   </button>
 </div>
