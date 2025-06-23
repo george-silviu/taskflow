@@ -1,4 +1,4 @@
-import { Component, computed, Input, input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-user',
@@ -7,20 +7,16 @@ import { Component, computed, Input, input } from '@angular/core';
   styleUrl: './user.component.css',
 })
 export class UserComponent {
-  // @Input({ required: true }) name!: string;
-  // @Input({ required: true }) avatar!: string;
+  @Input({ required: true }) id!: string;
+  @Input({ required: true }) name!: string;
+  @Input({ required: true }) avatar!: string;
+  @Output() customSelect = new EventEmitter(); //emit custom events to the parent component
 
-  name = input.required<string>();  //provide the generic type for name input
-  avatar = input.required<string>();
-
-  // get imagePath(){
-  //   return 'assets/users/' + this.avatar;
-  // }
-
-  imagePath = computed(() => {
-    return 'assets/users/' + this.avatar()
-  });
+  get imagePath(){
+    return 'assets/users/' + this.avatar;
+  }
 
   onSelectUser() {
+    this.customSelect.emit(this.id);
   }
 }
