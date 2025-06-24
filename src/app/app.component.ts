@@ -13,6 +13,7 @@ export class AppComponent {
   users = DUMMY_USERS;
 
   onSelectUser(id: string){
-    console.log(id)
+    console.log('User ID is ', id);
   }
+
 }
