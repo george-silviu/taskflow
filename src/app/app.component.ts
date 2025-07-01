@@ -12,11 +12,14 @@ import { DUMMY_USERS } from './dummy-users';
 })
 export class AppComponent {
   users = DUMMY_USERS;
+  selectedUserId = "u1";
 
-  selectedUser: any;
+  get selectedUser() {
+    return this.users.find(user => user.id === this.selectedUserId);
+  }
 
   onSelectUser(id: string) {
-    this.selectedUser = DUMMY_USERS.find(user => user.id === id)
+    this.selectedUserId = id; 
   }
 
 }
