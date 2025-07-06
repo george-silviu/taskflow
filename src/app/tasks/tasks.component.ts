@@ -13,6 +13,7 @@ export class TasksComponent {
   @Input({ required: true }) userId!: string;
   @Input({ required: true }) name!: string;
   tasks = DUMMY_TASKS;
+  isDialogOpen: boolean = false;
 
   get selectedUserTasks() {
     return this.tasks.filter((task) => this.userId === task.userId);
@@ -20,5 +21,9 @@ export class TasksComponent {
 
   onTaskComplete(taskId: string) {
     this.tasks = this.tasks.filter((task) => task.id !== taskId);
+  }
+
+  handleDialog() {
+    this.isDialogOpen = !this.isDialogOpen;
   }
 }
