@@ -1,10 +1,6 @@
 <div>
-  <!-- click event listener in Angular -->
-  <button (click)="onSelectUser()">
-    <!-- property binding -->
+  <button [class.active]="selected" (click)="onSelectUser()">
     <img [src]="imagePath" [alt]="user.name" />
-
-    <!-- string interpolation -->
     <span>{{ user.name }}</span>
   </button>
 </div>
