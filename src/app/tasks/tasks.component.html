@@ -1,5 +1,5 @@
 @if(isNewTaskDialogOpen){
-<app-new-task (cancel)="onNewTaskCancel()" />
+<app-new-task (cancel)="onNewTaskCancel()" (add)="onNewTaskAdd($event)" />
 }
 
 <section id="tasks">

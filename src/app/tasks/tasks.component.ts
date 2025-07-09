@@ -3,6 +3,8 @@ import { TaskComponent } from './task/task.component';
 import { NewTaskComponent } from './new-task/new-task.component';
 import { DUMMY_TASKS } from './dummy-tasks';
 
+import { type NewTaskData } from './task/task.model';
+
 @Component({
   selector: 'app-tasks',
   standalone: true,
@@ -30,5 +32,16 @@ export class TasksComponent {
 
   onNewTaskCancel() {
     this.isNewTaskDialogOpen = false;
+  }
+
+  onNewTaskAdd(newTaskData: NewTaskData) {
+    this.tasks.unshift({
+      id: new Date().getTime().toString(),
+      userId: this.userId,
+      title: newTaskData.title,
+      summary: newTaskData.summary,
+      dueDate: newTaskData.date
+    })
+     this.isNewTaskDialogOpen = false;
   }
 }
