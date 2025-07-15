@@ -35,7 +35,7 @@ export class TasksService {
     this.saveTasks();
   }
 
-  saveTasks() {
+  private saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(this.tasks));
   }
 }
