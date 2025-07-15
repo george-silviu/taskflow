@@ -23,10 +23,6 @@ export class TasksComponent {
     return this.tasksService.getUserTasks(this.userId);
   }
 
-  onTaskComplete(taskId: string) {
-    this.tasksService.deleteTask(taskId);
-  }
-
   onTaskCreate() {
     this.isNewTaskDialogOpen = true;
   }
