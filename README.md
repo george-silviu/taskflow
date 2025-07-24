@@ -2,7 +2,7 @@
 
 ## About
 
-> A minimalist task management project built to learn & practice the essential concepts of Angular.
+A minimalist task management project built to learn & practice the essential concepts of Angular.
 
 ## Features
 
@@ -18,19 +18,29 @@
 The application follows Angular best practices with a modular component structure for maintainability and scalability.
 
 ## Angular concepts review
-- Understand components and how content ends up on screen
-- Creating, configuring and using custom components
-- Adding components using Angular CLI
-- Output dynamic content using string interpolation
-- Property binding and outputting computed values
-- Attribute binding
-- Using getters for computed values
-- Listening to events with event binding
-- Understand Angular change detection mechanism
-- Define required and optional component inputs
-- Use signal inputs
-- Define component outputs and emit data
-- 
+
+- Understand **components** and how content ends up on screen
+- Creating, configuring and using custom **components**
+- Adding **components** using **Angular CLI**
+- Output dynamic content using **string interpolation**
+- **Property binding** and outputting computed values
+- **Attribute binding**
+- Using **getters** for computed values
+- Listening to events with **event binding**
+- Understand Angular **change detection** mechanism
+- Define required and optional **component inputs**
+- Use **signal inputs**
+- Define **component outputs** and emit data
+- Using **TypeScript** type aliases and interfaces
+- Output list and conditional content
+- Using legacy Angular **directives**: **ngIf** and **ngFor**
+- Storing data models in separate files
+- Dynamic CSS styling with **class bindings**
+- Using **directives** (or **signals**) and **two-way binding**
+- **Content projection** using **ng-content**
+- Transforming template data with **pipes**
+- Using **services**
+- Using **dependency injection**
 
 ### Code Scaffolding
 
