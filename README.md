@@ -24,28 +24,28 @@ The application follows Angular best practices with a modular component structur
 
 ## Angular concepts review
 
-- Understand <mark style="background-color: #9966CC">**components**</mark> and how content ends up on screen
-- Creating, configuring and using custom <mark style="background-color: #9966CC">**components**</mark>
-- Adding <mark style="background-color: #9966CC">**components**</mark> using <mark style="background-color: #9966CC">**Angular CLI**</mark>
-- Output dynamic content using <mark style="background-color: #9966CC">**string interpolation**</mark>
-- <mark style="background-color: #9966CC">**Property binding**</mark> and outputting computed values
-- <mark style="background-color: #9966CC">**Attribute binding**</mark>
-- Using <mark style="background-color: #9966CC">**getters**</mark> for computed values
-- Listening to events with <mark style="background-color: #9966CC">**event binding**</mark>
-- Understand Angular <mark style="background-color: #9966CC">**change detection**</mark> mechanism
-- Define required and optional <mark style="background-color: #9966CC">**component inputs**</mark>
-- Use <mark style="background-color: #9966CC">**signal inputs**</mark>
-- Define <mark style="background-color: #9966CC">**component outputs**</mark> and emit data
-- Using <mark style="background-color: #9966CC">**TypeScript**</mark> type aliases and interfaces
+- Understand <u>**components**</u> and how content ends up on screen
+- Creating, configuring and using custom <u>**components**</u>
+- Adding <u>**components**</u> using <u>**Angular CLI**</u>
+- Output dynamic content using <u>**string interpolation**</u>
+- <u>**Property binding**</u> and outputting computed values
+- <u>**Attribute binding**</u>
+- Using <u>**getters**</u> for computed values
+- Listening to events with <u>**event binding**</u>
+- Understand Angular <u>**change detection**</u> mechanism
+- Define required and optional <u>**component inputs**</u>
+- Use <u>**signal inputs**</u>
+- Define <u>**component outputs**</u> and emit data
+- Using <u>**TypeScript**</u> type aliases and interfaces
 - Output list and conditional content
-- Using legacy Angular <mark style="background-color: #9966CC">**directives**</mark>: <mark style="background-color: #9966CC">**ngIf**</mark> and <mark style="background-color: #9966CC">**ngFor**</mark>
+- Using legacy Angular <u>**directives**</u>: <u>**ngIf**</u> and <u>**ngFor**</u>
 - Storing data models in separate files
-- Dynamic CSS styling with <mark style="background-color: #9966CC">**class bindings**</mark>
-- Using <mark style="background-color: #9966CC">**directives**</mark> (or <mark style="background-color: #9966CC">**signals**</mark>) and <mark style="background-color: #9966CC">**two-way binding**</mark>
-- <mark style="background-color: #9966CC">**Content projection**</mark> using <mark style="background-color: #9966CC">**ng-content**</mark>
-- Transforming template data with <mark style="background-color: #9966CC">**pipes**</mark>
-- Using <mark style="background-color: #9966CC">**services**</mark>
-- Using <mark style="background-color: #9966CC">**dependency injection**</mark>
+- Dynamic CSS styling with <u>**class bindings**</u>
+- Using <u>**directives**</u> (or <u>**signals**</u>) and <u>**two-way binding**</u>
+- <u>**Content projection**</u> using <u>**ng-content**</u>
+- Transforming template data with <u>**pipes**</u>
+- Using <u>**services**</u>
+- Using <u>**dependency injection**</u>
 
 ### CLI Commands
 
