@@ -17,6 +17,11 @@ A minimalist task management project built to learn & practice the essential con
 
 The application follows Angular best practices with a modular component structure for maintainability and scalability.
 
+## UI Wireframe
+
+<img src="/src/images/taskflow-wireframe-1.png" alt="Taskflow Wireframe 1"/>
+<img src="/src/images/taskflow-wireframe-2.png" alt="Taskflow Wireframe 2"/>
+
 ## Angular concepts review
 
 - Understand **components** and how content ends up on screen
